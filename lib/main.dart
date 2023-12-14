@@ -154,19 +154,6 @@ class GeneratorPage extends StatelessWidget {
               )
 
             ),
-          // ListView(
-          //   children: [
-          //     Padding(
-          //       padding: const EdgeInsets.all(21),
-          //       child: Text('History'),
-          //     ),
-          //     for (Map his in appState.lastFour)
-          //       ListTile(
-          //           iconColor: theme.colorScheme.primary,
-          //           leading: his.containsValue(true)?Icon(Icons.favorite) : Icon(Icons.favorite_border),
-          //           title: Text(his.keys.first.asLowerCase)),
-          //   ],
-          // ),
           BigCard(pair: pair),
           SizedBox(height: 10),
           Row(
